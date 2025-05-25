@@ -2,26 +2,26 @@
   <img src="LOGO.png" alt="AltRx Logo" width="180"/>
 </p>
 
-# 💊 AltRx: AI-Powered Medicine Recommender with LLM-Based Symptom Analysis, Summarization & Clustering
+# AltRx: AI-Powered Medicine Recommender with LLM-Based Symptom Analysis, Summarization & Clustering
 
 AltRx is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.  
 It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** — all accessible through an intuitive Gradio web interface.
 
 ---
 
-## 🚀 Features
+## Features
 
 
-- 🔎 **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
-- 💬 **Symptom Checker Chatbot** powered by a DistilGPT2 LLM to understand symptoms and suggest treatments.
-- 📄 **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
-- 📊 **t-SNE-based clustering** to explore groups of similar medicines visually.
-- 🌍 **Multilingual support** with automatic translation of symptoms from French to English.
-- 🧠 Built with Transformers, spaCy, scikit-learn, Plotly, and Gradio.
+- **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
+- **Symptom Checker Chatbot** powered by a DistilGPT2 LLM to understand symptoms and suggest treatments.
+- **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
+- **t-SNE-based clustering** to explore groups of similar medicines visually.
+- **Multilingual support** with automatic translation of symptoms from French to English.
+- Built with Transformers, spaCy, scikit-learn, Plotly, and Gradio.
 
 ---
 
-## 🖼️ Demo Screenshots
+## Demo Screenshots
 
 ### Main Recommendation Interface
 
@@ -33,7 +33,7 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 Input: fièvre, toux, fatigue
 Output: Recommends medicines treating flu and respiratory conditions.
 
-🗂️ Project Structure
+Project Structure
 
 ├── alt_rx_preprocessing.py    # Data processing, embedding, and clustering pipeline
 ├── app.py                     # Main Gradio application
@@ -66,7 +66,7 @@ source venv/bin/activate    # On macOS/Linux
 pip install -r requirements.txt  
 python -m spacy download en_core_web_sm
 
-🧪 How to Use
+How to Use
 Step 1 — Preprocess the data
 
 python alt_rx_preprocessing.py
@@ -85,7 +85,7 @@ python app.py
 
 Then open browser at: http://localhost:7860
 
-🧠 Technologies Used
+Technologies Used
 
 Tool	Purpose
 
@@ -103,7 +103,7 @@ deep-translator	Translate symptoms from French to English
 
 GPU processeur
 
-✨ Example Use Cases
+Example Use Cases
 
 Recommending drug alternatives for specific conditions
 
@@ -113,7 +113,7 @@ Summarizing medical notices for patient-friendly language
 
 Visualizing therapeutic similarity between drugs
 
-📌 Notes
+Notes
 
 The input dataset must be in medicine_details.csv format.
 
@@ -121,8 +121,8 @@ Summary generation and chatbot use lightweight models to avoid deployment overhe
 
 Compatible with both CPU and GPU environments.
 
-🧑‍💻 Author
+Author
 
-Original project by Khalil BACHIRI
+Original project by **Khalil BACHIRI**
 
 Contact khalil.bachiri@cyu.fr
