@@ -128,4 +128,4 @@ Original project by
   AI Researcher & Data Scientist · LLM & MultiModal Recommender Systems<br>
   📧 <a href="mailto:khalil.bachiri@excyu.fr">khalil.bachiri@cyu.fr</a>
 </p>
-
+```
