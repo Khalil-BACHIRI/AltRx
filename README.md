@@ -124,6 +124,7 @@ Compatible with both CPU and GPU environments.
 
 - Author
 
-Original project by **Khalil BACHIRI**
+Original project by <p align="center"><b>Khalil BACHIRI</b></p>
+
 
 Contact khalil.bachiri@cyu.fr
