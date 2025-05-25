@@ -119,7 +119,7 @@ Visualizing therapeutic similarity between drugs
 
 👤 Author
 
-Khalil BACHIRI  
+Original project by Khalil BACHIRI  
 
 AI Researcher & Data Scientist - LLM & MultiModal Recommender Systems  
 
