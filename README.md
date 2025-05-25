@@ -1,11 +1,8 @@
-<p align="center">
-  <img src="LOGO.png" alt="AltRx Logo" width="180"/>
-</p>
 
 # AltRx: AI-Powered Medicine Recommender with LLM-Based Symptom Analysis, Summarization & Clustering
 
 AltRx is an AI-driven application that recommends alternative medicines based on semantic similarity, symptom interpretation, and side-effect profiling.  
-It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** — all accessible through an intuitive Gradio web interface.
+It integrates advanced **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **interactive visualization** - all accessible through an intuitive Gradio web interface.
 
 ---
 
