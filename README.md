@@ -117,7 +117,6 @@ Visualizing therapeutic similarity between drugs
 - Notes : Summary generation and chatbot use lightweight models to avoid deployment overhead and Compatible with both CPU and GPU environments.
 
 
----
 
 ## 👤 Author
 
