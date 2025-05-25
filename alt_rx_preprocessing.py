@@ -1,4 +1,4 @@
-# advanced_nlp.py
+#by bachiri_khalil
 
 import pandas as pd
 import re
@@ -20,7 +20,6 @@ nlp = spacy.load('en_core_web_sm')
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 
-# Chargement du CSV
 df = pd.read_csv("medicine_details.csv")
 df.columns = df.columns.str.strip() 
 
@@ -110,13 +109,13 @@ df['combined_features'] = (
     df['medicine_type']
 )
 
-print("📊 Génération des embeddings BERT...")
+print("Génération des embeddings BERT...")
 bert_embeddings = get_bert_embeddings(df['combined_features'])
 
-print("📈 Calcul des similarités cosinus...")
+print("Calcul des similarités cosinus...")
 cosine_sim = cosine_similarity(bert_embeddings)
 
-print("🔍 Clustering des médicaments...")
+print("Clustering des médicaments...")
 kmeans = KMeans(n_clusters=5, random_state=42)
 df['cluster'] = kmeans.fit_predict(bert_embeddings)
 

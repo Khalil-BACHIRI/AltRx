@@ -114,13 +114,7 @@ Summarizing medical notices for patient-friendly language
 
 Visualizing therapeutic similarity between drugs
 
-- Notes
-
-The input dataset must be in medicine_details.csv format.
-
-Summary generation and chatbot use lightweight models to avoid deployment overhead.
-
-Compatible with both CPU and GPU environments.
+- Notes : Summary generation and chatbot use lightweight models to avoid deployment overhead and Compatible with both CPU and GPU environments.
 
 - Author
 
@@ -128,3 +122,14 @@ Original project by <p align="center"><b>Khalil BACHIRI</b></p>
 
 
 Contact khalil.bachiri@cyu.fr
+
+
+---
+
+## 👤 Author
+
+<p align="center">
+  <strong>Khalil BACHIRI</strong><br>
+  AI Researcher & Data Scientist · LLM & MultiModal Recommender Systems  
+  ✉️ <a href="mailto:khalil.bachiri@excyu.fr">khalil.bachiri@cyu.fr</a>
+</p>

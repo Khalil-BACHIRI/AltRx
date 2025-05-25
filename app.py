@@ -97,7 +97,7 @@ def symptom_chatbot(symptom_text, top_n=5):
     if not symptom_text.strip():
         return pd.DataFrame([{"Message": "Please describe your symptoms."}])
 
-    # Traduction FR → EN
+    # Traduction FR -> EN
     translated = GoogleTranslator(source='auto', target='en').translate(symptom_text)
     keywords = translated.lower().split(',')
 
