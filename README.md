@@ -123,4 +123,4 @@ Visualizing therapeutic similarity between drugs
 **Khalil BACHIRI**  
 AI Researcher & Data Scientist · LLM & MultiModal Recommender Systems
 
-📧 [khalil.bachiri@cyu.fr](mailto:khalil.bachiri@cyu.fr)
+📧 Email: khalil.bachiri@cyu.fr
