@@ -10,7 +10,7 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 ---
 
 ## 🚀 Features
-
+```bash
 - 🔎 **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
 - 💬 **Symptom Checker Chatbot** powered by a DistilGPT2 LLM to understand symptoms and suggest treatments.
 - 📄 **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
@@ -49,14 +49,18 @@ Output: Recommends medicines treating flu and respiratory conditions.
 git clone https://github.com/Khalil-BACHIRI/AltRx.git
 cd AltRx
 
+
 2. Create a virtual environment
+
 python -m venv venv
 venv\Scripts\activate       # On Windows
 # or
 source venv/bin/activate    # On macOS/Linux
 
-3. Install dependencies
-pip install -r requirements.txt
+
+3. Install dependencies  
+```bash
+pip install -r requirements.txt  
 python -m spacy download en_core_web_sm
 
 🧪 How to Use
@@ -65,25 +69,39 @@ Step 1 — Preprocess the data
 python alt_rx_preprocessing.py
 
 This generates:
+
 processed_df.pkl
+
 bert_embeddings.pkl
+
 cosine_sim.pkl
 
 Step 2 — Launch the app
+
 python app.py
+
 Then open browser at: http://localhost:7860
 
 🧠 Technologies Used
+
 Tool	Purpose
+
 spaCy	Entity extraction and text preprocessing
+
 Transformers	BERT (for embeddings), DistilGPT2, BART
+
 scikit-learn	Similarity, clustering, and t-SNE
+
 Plotly	Interactive cluster visualizations
+
 Gradio	Web interface
+
 deep-translator	Translate symptoms from French to English
+
 GPU processeur
 
 ✨ Example Use Cases
+
 Recommending drug alternatives for specific conditions
 
 Providing medication suggestions from symptom descriptions
@@ -93,6 +111,7 @@ Summarizing medical notices for patient-friendly language
 Visualizing therapeutic similarity between drugs
 
 📌 Notes
+
 The input dataset must be in medicine_details.csv format.
 
 Summary generation and chatbot use lightweight models to avoid deployment overhead.
@@ -100,5 +119,7 @@ Summary generation and chatbot use lightweight models to avoid deployment overhe
 Compatible with both CPU and GPU environments.
 
 🧑‍💻 Author
+
 Original project by Khalil BACHIRI
+
 Contact khalil.bachiri@cyu.fr
