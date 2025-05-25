@@ -10,7 +10,8 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 ---
 
 ## 🚀 Features
-```bash
+
+
 - 🔎 **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
 - 💬 **Symptom Checker Chatbot** powered by a DistilGPT2 LLM to understand symptoms and suggest treatments.
 - 📄 **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
@@ -23,10 +24,12 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 ## 🖼️ Demo Screenshots
 
 ### Main Recommendation Interface
+
+
 ![Screenshot](screenshot.png)
 
 ### Symptom Checker Example (input in French)
-
+```text
 Input: fièvre, toux, fatigue
 Output: Recommends medicines treating flu and respiratory conditions.
 
