@@ -10,7 +10,7 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 
 
 - **Hybrid medicine recommendation** using BERT embeddings and cosine similarity.
-- **Symptom Checker Chatbot** powered by a DistilGPT2 LLM to understand symptoms and suggest treatments.
+- **Symptom Checker Chatbot** powered by a GPT LLM to understand symptoms and suggest treatments.
 - **Medical Notice Summarizer** using DistilBART to simplify long drug descriptions.
 - **t-SNE-based clustering** to explore groups of similar medicines visually.
 - **Multilingual support** with automatic translation of symptoms from French to English.
@@ -23,7 +23,12 @@ It integrates advanced **Natural Language Processing (NLP)**, **Large Language M
 ### Main Recommendation Interface
 
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshots/screenshot.png)
+
+![Screenshot](screenshots/screenshot1.png)
+
+![Screenshot](screenshots/screenshot2.png)
+
 
 ### Symptom Checker Example (input in French)
 ```text
@@ -34,7 +39,6 @@ Project Structure
 
 ├── alt_rx_preprocessing.py    # Data processing, embedding, and clustering pipeline
 ├── app.py                     # Main Gradio application
-├── LOGO.png                   # Project logo
 ├── screenshot.png             # Interface demo image
 ├── bert_embeddings.pkl        # Medicine embeddings
 ├── cosine_sim.pkl             # Cosine similarity matrix
@@ -43,7 +47,7 @@ Project Structure
 ├── requirements.txt           # All required Python packages
 └── README.md                  # This file
 
-⚙️ Installation
+Installation
 1. Clone the repository
 
 git clone https://github.com/Khalil-BACHIRI/AltRx.git
