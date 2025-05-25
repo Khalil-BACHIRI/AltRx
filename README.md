@@ -114,15 +114,13 @@ Summarizing medical notices for patient-friendly language
 
 Visualizing therapeutic similarity between drugs
 
-- Notes : Summary generation and chatbot use lightweight models to avoid deployment overhead and Compatible with both CPU and GPU environments.```
+- Notes : Summary generation and chatbot use lightweight models to avoid deployment overhead and Compatible with both CPU and GPU environments.
 
 
----
+👤 Author
 
-## 👤 Author
+Khalil BACHIRI  
 
-**Khalil BACHIRI**  
+AI Researcher & Data Scientist - LLM & MultiModal Recommender Systems  
 
-AI Researcher & Data Scientist · LLM & MultiModal Recommender Systems  
-
-📧 [khalil.bachiri@cyu.fr](mailto:khalil.bachiri@cyu.fr)
+📧 khalil.bachiri@cyu.fr
