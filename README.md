@@ -62,12 +62,13 @@ source venv/bin/activate    # On macOS/Linux
 
 
 3. Install dependencies  
-```bash
+
 pip install -r requirements.txt  
 python -m spacy download en_core_web_sm
 
-How to Use
-Step 1 — Preprocess the data
+- How to Use
+
+- Step 1 - Preprocess the data
 
 python alt_rx_preprocessing.py
 
@@ -79,19 +80,19 @@ bert_embeddings.pkl
 
 cosine_sim.pkl
 
-Step 2 — Launch the app
+- Step 2 - Launch the app
 
 python app.py
 
 Then open browser at: http://localhost:7860
 
-Technologies Used
+- Technologies Used
 
 Tool	Purpose
 
 spaCy	Entity extraction and text preprocessing
 
-Transformers	BERT (for embeddings), DistilGPT2, BART
+Transformers	BERT (for embeddings), GPT, BART
 
 scikit-learn	Similarity, clustering, and t-SNE
 
@@ -103,7 +104,7 @@ deep-translator	Translate symptoms from French to English
 
 GPU processeur
 
-Example Use Cases
+- Example Use Cases
 
 Recommending drug alternatives for specific conditions
 
@@ -113,7 +114,7 @@ Summarizing medical notices for patient-friendly language
 
 Visualizing therapeutic similarity between drugs
 
-Notes
+- Notes
 
 The input dataset must be in medicine_details.csv format.
 
@@ -121,7 +122,7 @@ Summary generation and chatbot use lightweight models to avoid deployment overhe
 
 Compatible with both CPU and GPU environments.
 
-Author
+- Author
 
 Original project by **Khalil BACHIRI**
 
